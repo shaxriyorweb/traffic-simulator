@@ -77,7 +77,7 @@ ax_pie.pie(values, labels=labels, autopct='%.1f%%', colors=colors, startangle=14
 ax_pie.set_title("Tizim yuklanish holati")
 
 # Trend chizma
-foydalanuvchi_range = np.arange(1, 35)
+foydalanuvchi_range = np.arange(1, 30)
 trend_yuklama = []
 for n in foydalanuvchi_range:
     t = np.random.uniform(min_t, max_t, n)
